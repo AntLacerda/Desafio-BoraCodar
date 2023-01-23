@@ -1,1 +1,1 @@
-<img src="./img/product card.jpg">
+<img src="./img/product card.jpg" style="border-radius: 5px;">
