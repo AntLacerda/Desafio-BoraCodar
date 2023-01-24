@@ -1,6 +1,38 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="readme.css">
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+    .titulo{
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:bold;
+    }
+
+    .texto{
+        font-size: 12px;
+        font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .subtit{
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .alinhamento{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .alinhamento img{
+        width: 30px;
+    }
+</style>
+
 <img src="./img/product card.jpg" class="imgReadme">
 <h1 class="titulo">Product Card - #boraCodar</h1>
 <hr>
