@@ -1,38 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="readme.css">
 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
-
-    .titulo{
-        text-align: center;
-        font-size: 16px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight:bold;
-    }
-
-    .texto{
-        font-size: 12px;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .subtit{
-        font-size: 14px;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .alinhamento{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .alinhamento img{
-        width: 30px;
-    }
-</style>
-
 <img src="./img/product card.jpg" class="imgReadme">
 <h1 class="titulo">Product Card - #boraCodar</h1>
 <hr>
@@ -50,9 +18,9 @@
 <h2 class="subtit">🛠 - Tecnologia Utilizadas</h2>
 <br>
 <div class="alinhamento">
-    <img src="./img/html-5.png" alt="">
-    <img src="./img/css-3.png" alt="">
-    <img src="./img/js.png" alt="">
+    <img src="./img/html-5.png" alt="" style="width: 50px">
+    <img src="./img/css-3.png" alt="" style="width: 50px">
+    <img src="./img/js.png" alt="" style="width: 50px">
 </div>
 <br>
 <h2 class="subtit">🎨 - Protótipo</h2>
