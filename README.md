@@ -1,4 +1,4 @@
-<img src="./img/boracodar">
+<img src="./img/boracodar.jpg">
 
 # Desafio-BoraCodar
 <br>
