@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<img src="./img/boracodar.jpg" alt="" style="border-radius: 20px;">
-<br>
-# Desafio-BoraCodar
-=======
 <img src="./img/boracodar.jpg" style="border-radius: 20px">
 
 # Desafio #BoraCodar
