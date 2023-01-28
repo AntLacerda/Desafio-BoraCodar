@@ -8,6 +8,6 @@ Repositório criado para armazenar os desafios propostos pela Rocketseat que con
 <br>
 <ul>
     <li><a href="https://chshc0.csb.app/">🛋 Desafio 02 - Product Card</a></li>
-    <li><a href="">⏯ Desafio 03 - Botões e Cursores</a></li>
+    <li><a href="https://6wlrbp.csb.app/">⏯ Desafio 03 - Botões e Cursores</a></li>
 </ul>
 <br>
