@@ -1,4 +1,4 @@
-<img src="./img/boracodar.jpg" alt="">
+<img src="./img/boracodar.jpg" alt="" style="border-radius: 20px;">
 <br>
 # Desafio-BoraCodar
 <br>
