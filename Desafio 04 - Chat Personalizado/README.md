@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="readme.css">
 
-<img src="./img/botoesECursores.jpg" class="imgReadme">
+<img src="./img/chatModerno.jpg" class="imgReadme">
 <h1 class="titulo">Chat Moderno - #boraCodar</h1>
 <hr>
 <p class="texto">Projeto desenvolvido durante o quarto desafio semanal da Rocketseat. O projeto desta semana trata-se de criar uma simulação de chat moderno utilizando conceitos de HTML e CSS e JavaScript. Mais informações sobre o desenvolvimento estão expostas abaixo.</p>
