@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/calculadora.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 05 - Calculadora</title>
+</head>
+<body>
+    <section>
+        <div id="calculadora">
+            <div id="caixa_maior">
+                <div id="caixa_menor_sup">
+                    <div id="calc_anterior">
+                        <p><span id="histPrimOp">0</span> <span id="histOp"></span> <span id="histSegOp"> </span></p>
+                    </div>
+                    <div id="calc_atual">
+                        <p id="operacao"></p>
+                        <p id="numTela">0</p>
+                    </div>
+                </div>
+                <div id="teclado">
+                    <div class="botao_teclado" style="color: #975DFA" id="botaoCancelar">
+                        <button class="valor_teclado">CE</button>
+                    </div>
+                    <div class="botao_teclado" id="botaoLimpar">
+                        <button class="valor_teclado">C</button>
+                    </div>
+                    <div class="botao_teclado" onclick="operar('%')">
+                        <button class="valor_teclado">%</button>
+                    </div>
+                    <div class="botao_teclado roxo" onclick="operar('/')">
+                        <button class="valor_teclado">÷</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('7')">
+                        <button class="valor_teclado">7</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('8')">
+                        <button class="valor_teclado">8</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('9')">
+                        <button class="valor_teclado">9</button>
+                    </div>
+                    <div class="botao_teclado roxo" onclick="operar('x')">
+                        <button class="valor_teclado">x</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('4')">
+                        <button class="valor_teclado">4</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('5')">
+                        <button class="valor_teclado">5</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('6')">
+                        <button class="valor_teclado">6</button>
+                    </div>
+                    <div class="botao_teclado roxo" onclick="operar('-')">
+                        <button class="valor_teclado">-</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('1')">
+                        <button class="valor_teclado">1</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('2')">
+                        <button class="valor_teclado">2</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('3')">
+                        <button class="valor_teclado">3</button>
+                    </div>
+                    <div class="botao_teclado roxo" onclick="operar('+')">
+                        <button class="valor_teclado">+</button>
+                    </div>
+                    <div class="botao_teclado" id="botaoTroca">
+                        <button class="valor_teclado">+/-</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('0')">
+                        <button class="valor_teclado">0</button>
+                    </div>
+                    <div class="botao_teclado" onclick="coletarNum('.')">
+                        <button class="valor_teclado">,</button>
+                    </div>
+                    <div class="botao_teclado igualdade" onclick="resolucao()">
+                        <button class="valor_teclado">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+}
+
+#calculadora {
+    width: 35rem;
+    height: 56rem;
+    background-color: #2D2A37;
+    border-radius: 4.8rem;
+    padding: 3.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04), 0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26), 0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1), inset 0px -4px 5px rgba(0, 0, 0, 0.22);;
+}
+
+#caixa_maior {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#caixa_menor_sup {
+    padding: 0 2rem;
+}
+
+#calc_anterior {
+    color: #6B6B6B;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 140%;
+    text-align: right;
+}
+
+#calc_atual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+#calc_atual p:first-child {
+    color: #6B6B6B;
+    font-size: 2rem;
+}
+
+#calc_atual p:last-child {
+    color: #EBEBEB;
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 5rem;
+}
+
+#teclado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 37rem;
+}
+
+.botao_teclado {
+    width: 6.4rem;
+    height: 6.4rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+    border-radius: 99rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.botao_teclado button{
+    font-family: 'Rubik', sans-serif;
+    background: none;
+    color: #EBEBEB;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.botao_teclado:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%), #2D2A37;
+}
+
+.botao_teclado:active{
+    box-shadow: inset 0px -10px 3px rgba(255, 255, 255, 0.06);
+}
+
+.roxo {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;
+}
+
+.igualdade {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+}
