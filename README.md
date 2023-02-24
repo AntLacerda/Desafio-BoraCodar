@@ -7,6 +7,7 @@ Repositório criado para armazenar os desafios propostos pela Rocketseat que con
 <h2>Lista de desafios</h2>
 <br>
 <ul>
+    <li><a href="https://txpo17.csb.app/">🎧 Desafio 01 - Player de Música</a></li>
     <li><a href="https://chshc0.csb.app/">🛋 Desafio 02 - Product Card</a></li>
     <li><a href="https://6wlrbp.csb.app/">⏯ Desafio 03 - Botões e Cursores</a></li>
     <li><a href="https://571tz9.csb.app/">📲 Desafio 04 - Chat Personalizado</a></li>

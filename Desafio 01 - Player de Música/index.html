@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/botao-play.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 01 - Player de Música</title>
+</head>
+<body>
+    <section>
+        <div id="alinhamento_maior">
+            <div id="card_maior">
+                <img src="./img/capa_chefin.jpg" alt="Imagem da capa do álbum" class="capa">
+                <h2 class="nome_da_musica"></h2>
+                <p class="nome_da_banda"></p>
+                <div class="alinhamento_player">
+                    <img src="./img/back.png" alt="Player para voltar a música" class="img_Player" id="botao_back">
+                    <img src="./img/play.png" alt="Player para iniciar e pausar a música" class="img_Player" id="botao_iniciar">
+                    <img src="./img/next.png" alt="Player para passar a música" class="img_Player" id="botao_next">
+                </div>
+                <div class="barra_carregamento">
+                    <div class="barra_carregamento_comp"></div>
+                </div>
+                <div class="alinhamento_time">
+                    <p class="tempo_inicio"></p>
+                    <p class="tempo_fim"></p>
+                </div>
+            </div>
+            <div class="alinhamento_lateral">
+                <div id="player_lateral_maior">
+                    <div class="alinhamento_box_maior">
+                        <img src="./img/default.png" alt="imagem default para exemplo" class="img_default">
+                        <div>
+                            <h2 class="nome_da_musica">Nome da Música</h2>
+                            <p class="nome_da_banda">Nome da Banda</p>
+                        </div>
+                    </div>
+                    <div class="alinhamento_player">
+                        <img src="./img/back.png" alt="Player para voltar a música" class="img_Player" id="botao_back">
+                        <img src="./img/play.png" alt="Player para iniciar e pausar a música" class="img_Player" id="botao_iniciar">
+                        <img src="./img/next.png" alt="Player para passar a música" class="img_Player" id="botao_next">
+                    </div>
+                    <div class="barra_carregamento">
+                        <div class="barra_carregamento_comp"></div>
+                    </div>
+                    <div class="alinhamento_time">
+                        <p class="tempo_inicio">00:00</p>
+                        <p class="tempo_fim">3:36</p>
+                    </div>
+                </div>
+                <div id="player_lateral_menor">
+                    <div class="alinhamento_box_maior">
+                        <img src="./img/default.png" alt="imagem default para exemplo" class="img_default">
+                        <div>
+                            <h2 class="nome_da_musica">Nome da Música</h2>
+                            <p class="nome_da_banda">Nome da Banda</p>
+                        </div>
+                    </div>
+                    <div class="alinhamento_player">
+                        <img src="./img/back.png" alt="Player para voltar a música" class="img_Player" id="botao_back">
+                        <img src="./img/play.png" alt="Player para iniciar e pausar a música" class="img_Player" id="botao_iniciar">
+                        <img src="./img/next.png" alt="Player para passar a música" class="img_Player" id="botao_next">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio src=""></audio>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
