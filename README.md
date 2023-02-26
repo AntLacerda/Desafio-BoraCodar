@@ -12,5 +12,6 @@ Repositório criado para armazenar os desafios propostos pela Rocketseat que con
     <li><a href="https://6wlrbp.csb.app/">⏯ Desafio 03 - Botões e Cursores</a></li>
     <li><a href="https://571tz9.csb.app/">📲 Desafio 04 - Chat Personalizado</a></li>
     <li><a href="https://3obepw.csb.app/">📟 Desafio 05 - Calculadora</a></li>
+    <li><a href="https://2hitl9.csb.app/">✈️ Desafio 06 - Cartão de Embarque</a></li>
 </ul>
 <br>
