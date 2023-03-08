@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body *{
+    font-family: 'Roboto', sans-serif;
+}
+
+#sec_inicio {
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #F8F8FF;
+}
+
+#sec_inicio--dv1 {
+    align-self: start;
+}
+
+#sec_inicio--dv2 {
+    width: 40rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+
+#sec_inicio--dv2 p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #E45858;
+}
+
+#sec_inicio--dv2 h2 {
+    width: 64rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 125%;
+    color: #121214;
+}
+
+
+#sec_inicio--dv2 div {
+    background: #FFF;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#sec_inicio--dv2 div input, select {
+    width: 24rem;
+    height: 4.8rem;
+    background: #F4F4FF;
+    color: #7C7C8A;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding: 1.6rem 3rem;
+    border: none;
+}
+
+#sec_inicio--dv2 div button{
+    width: 17rem;
+    height: 4.8rem;
+    background: #6246EA;
+    color: #FFF;
+    border-radius: 0.5rem;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#sec_inicio--dv3 {
+    align-self: end;
+}
+
+/* ------------------------------------------------------- */
+
+#sec_corpo {
+    padding: 10rem 11.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#bloco_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+    justify-content: center;
+}
+
+#sec_corpo--dv_texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec_corpo--dv_texto h3 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    color: #121214;
+}
+
+#sec_corpo--dv_texto div {
+    padding: 0.8rem;
+    border: 0.1rem solid #EAEAEA;
+    border-radius: 0.6rem;
+}
+
+.focado {
+    padding: 0.4rem 2.4rem;
+    color: #FFF;
+    background: #6246EA;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.desfocado {
+    padding: 0.4rem 2.4rem;
+    color: #6246EA;
+    background: #FFF;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    width: 38.4rem;
+    height: 32.3rem;
+    border: 0.1rem solid #EAEAEA;
+    border-radius: 1rem;
+}
+
+.card img {
+    border-radius: 1rem 1rem 0 0;
+    width: 38.4rem;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.6rem;
+    gap: 1.4rem;
+}
+
+.card_text h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: #121214;
+}
+
+.card_text p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.card_text div {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.card_text div i{
+    color: rgb(198, 66, 66);
+    font-size: 2.5rem;
+}
+
+
+

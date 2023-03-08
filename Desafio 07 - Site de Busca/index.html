@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="shortcut icon" href="./img/mascara-de-carnaval.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 07 - Site de Buscas</title>
+</head>
+<body>
+    <section>
+        <div id="sec_inicio">
+            <div id="sec_inicio--dv1">
+                <img src="./img/ilu_top.png" alt="">
+            </div>
+            <div id="sec_inicio--dv2"> 
+                <p>FIND YOUR BLOCK</p>
+                <h2>Encontre os <span style="color: #6246EA;">melhores blocos</span> de carnaval de 2023</h2>
+                <div>
+                    <input type="text" placeholder="Pesquise por nome" id="campoTextoPesquisa">
+                    <select name="" id="selecaoEstado">
+                        <option value="0">Selecione um estado</option>
+                        <option value="São Paulo - SP">SP</option>
+                        <option value="Florianópolis - SC">SC</option>
+                        <option value="Curitiba - PR">PR</option>
+                        <option value="Salvador - BA">BA</option>
+                        <option value="Rio de Janeiro - RJ">RJ</option>
+                        <option value="Porto Alegre - RS">RS</option>
+                    </select>
+                    <button id="btn_busca">BUSCAR AGORA</button>
+                </div>
+            </div>
+            <div id="sec_inicio--dv3">
+                <img src="./img/ilu_bot.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div id="sec_corpo">
+            <div id="sec_corpo--dv_texto">
+                <h3>Blocos recomendados</h3>
+                <div>
+                    <button class="focado" id="btnLista">LISTA</button>
+                    <button class="desfocado" id="btnMapa">MAPA</button>
+                </div>
+            </div>
+
+            <div id="bloco_cards">
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
