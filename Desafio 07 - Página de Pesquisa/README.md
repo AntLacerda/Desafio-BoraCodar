@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="readme.css">
 
-<img src="./img/capa.jpg" class="imgReadme">
+<img src="./img/product card.jpg" class="imgReadme">
 <h1 class="titulo">Site de Busca - #boraCodar</h1>
 <hr>
 <p class="texto">Projeto desenvolvido durante o sétimo desafio semanal da Rocketseat. O projeto desta semana trata-se de criar um site de buscas para o carnaval utilizando conceitos de HTML e CSS e JavaScript. No projeto desenvolvido pela Rockseat, a ideia era apenas utilizar HTML e CSS para o desenvolvimento do projeto. No meu projeto pessoal, implementei as funcionalidades de busca tanto pela busca de título quanto pela busca por estado. Mais informações sobre o desenvolvimento estão expostas abaixo.</p>
