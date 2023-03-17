@@ -14,5 +14,6 @@ Repositório criado para armazenar os desafios propostos pela Rocketseat que con
     <li><a href="https://3obepw.csb.app/">📟 Desafio 05 - Calculadora</a></li>
     <li><a href="https://2hitl9.csb.app/">✈️ Desafio 06 - Cartão de Embarque</a></li>
     <li><a href="https://inkevf.csb.app/">🥳 Desafio 07 - Página de Pesquisa</a></li>
+    <li><a href="https://ygg1f7.csb.app/">📊 Desafio 08 - Dashbord Empresarial</a></li>
 </ul>
 <br>

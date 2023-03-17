@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/grafico-preditivo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Desafio 08 - Dashbord</title>
+</head>
+<body>
+    <div id="box">
+        <h2>Meta</h2>
+        <div class="top_box">
+            <div>
+                <label for="">Valor por venda:</label>
+                <input type="text" placeholder="Ex: 250" id="valor_por_venda">
+            </div>
+            <div>
+                <label for="">Meta de Vendas Mensal:</label>
+                <input type="text" placeholder="Ex: 100" id="meta_mensal">
+            </div>
+        </div>
+
+
+        <h2>Vendas por dia da Semana</h2>
+        <div class="top_box">
+            <div>
+                <label for="">Segunda-Feira:</label>
+                <input type="text" placeholder="Qnt. de vendas no dia..." id="qt_seg">
+            </div>
+            <div>
+                <label for="">Terça-Feira:</label>
+                <input type="text" placeholder="Qnt. de vendas no dia..." id="qt_ter">
+            </div>
+        </div>
+        <div class="top_box">
+            <div>
+                <label for="">Quarta-Feira:</label>
+                <input type="text" placeholder="Qnt. de vendas no dia..." id="qt_qua">
+            </div>
+            <div>
+                <label for="">Quinta-Feira:</label>
+                <input type="text" placeholder="Qnt. de vendas no dia..." id="qt_qui">
+            </div>
+        </div>
+        <div class="top_box">
+            <div>
+                <label for="">Sexta-Feira:</label>
+                <input type="text" placeholder="Qnt. de vendas no dia..." id="qt_sex">
+            </div>
+            <div>
+                <label for="">Sábado:</label>
+                <input type="text" placeholder="Qnt. de vendas no dia..." id="qt_sab">
+            </div>
+        </div>
+        <div class="top_box">
+            <div>
+                <label for="">Domingo:</label>
+                <input type="text" placeholder="Qnt. de vendas no dia..." id="qt_dom">
+                <a href="dashbord.html"><button id="btn_gerador">GERAR RELATÓRIO</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
